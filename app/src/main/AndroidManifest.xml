@@ -12,8 +12,13 @@
         android:theme="@style/Theme.Dictionary"
         tools:targetApi="29">
         <activity
-            android:name="OnboardingActivity"
-
+            android:name=".MenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SignupScreen"
+            android:exported="false" />
+        <activity
+            android:name=".OnboardingActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

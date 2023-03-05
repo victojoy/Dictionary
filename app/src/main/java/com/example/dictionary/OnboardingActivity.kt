@@ -1,5 +1,6 @@
 package com.example.dictionary
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
@@ -53,6 +54,7 @@ class OnboardingActivity : AppCompatActivity(R.layout.activity_onboarding) {
     }
 
     private fun onContinue() {
-        //TODO: Go to Auth Screen
+        val intent = Intent(this, SignupScreen::class.java)
+        startActivity(intent)
     }
 }
