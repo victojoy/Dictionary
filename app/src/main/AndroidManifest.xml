@@ -12,7 +12,7 @@
         android:theme="@style/Theme.Dictionary"
         tools:targetApi="29">
         <activity
-            android:name=".Intro1Activity"
+            android:name="OnboardingActivity"
 
             android:exported="false" />
         <activity

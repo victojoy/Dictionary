@@ -10,5 +10,10 @@
 
     <color name="start_gradient">#E3562A</color>
     <color name="end_gradient">#F29F3F</color>
-    <color name="headers_text">#3C3A36</color>
+    <color name="background">#FFFFFF</color>
+    <color name="text_primary">#3C3A36</color>
+    <color name="text_secondary">#78746D</color>
+    <color name="button">#E3562A</color>
+    <color name="onboarding_active">#65AAEA</color>
+    <color name="onboarding_inactive">#D5D4D4</color>
 </resources>
