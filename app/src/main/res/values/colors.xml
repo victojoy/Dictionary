@@ -16,4 +16,6 @@
     <color name="button">#E3562A</color>
     <color name="onboarding_active">#65AAEA</color>
     <color name="onboarding_inactive">#D5D4D4</color>
+    <color name="navigation_selected">#E3562A</color>
+    <color name="navigation_unselected">#BEBAB3</color>
 </resources>
