@@ -21,4 +21,19 @@
     <string name="log_in">Log in</string>
     <string name="signupbackbutton">signupBackButton</string>
 
+    <!-- Navigation Bar Screen-->
+    <string name="training">Training</string>
+    <string name="dictionary">Dictionary</string>
+    <string name="video">Video</string>
+    <string name="add_to_dictionary">Add to Dictionary</string>
+    <string name="hint_search">Search</string>
+    <string name="cooking">Cooking</string>
+    <string name="part_of_speech">Part of Speech:</string>
+    <string name="meanings">Meanings:</string>
+    <string name="transcriptionEdit">[ˈkʊkɪŋ]</string>
+    <string name="partOfSpeechEdit">Noun</string>
+    <string name="ic_speaker">speaker</string>
+    <string name="meaning">The practice or skill of preparing food by combining, mixing, and heating ingredients.</string>
+    <string name="example">Example: he developed an interest in cooking.</string>
+
 </resources>
