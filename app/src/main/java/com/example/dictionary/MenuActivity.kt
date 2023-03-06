@@ -7,10 +7,10 @@ import com.example.dictionary.databinding.ActivityMenuBinding
 import com.google.android.material.bottomnavigation.BottomNavigationView
 
 
-class MenuActivity : AppCompatActivity() {
+class MenuActivity : AppCompatActivity(R.layout.activity_menu) {
 
-    lateinit var bottomNavigation : BottomNavigationView
-    private lateinit var binding : ActivityMenuBinding
+    lateinit var bottomNavigation: BottomNavigationView
+    private lateinit var binding: ActivityMenuBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMenuBinding.inflate(layoutInflater)
@@ -19,7 +19,7 @@ class MenuActivity : AppCompatActivity() {
         loadFragment(DictionaryFragment())
         bottomNavigation = binding.bottomNavigation
 
-        bottomNavigation.setOnItemSelectedListener{
+        bottomNavigation.setOnItemSelectedListener {
             when (it.itemId) {
                 R.id.dictionary -> {
                     loadFragment(DictionaryFragment())
@@ -39,7 +39,7 @@ class MenuActivity : AppCompatActivity() {
 
     private fun loadFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
-        transaction.replace(R.id.container,fragment)
+        transaction.replace(R.id.container, fragment)
         transaction.commit()
     }
 }

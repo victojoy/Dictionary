@@ -5,7 +5,6 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.viewpager2.widget.ViewPager2
 import com.example.dictionary.databinding.ActivityOnboardingBinding
-import com.example.dictionary.OnboardingAdapter
 
 class OnboardingActivity : AppCompatActivity(R.layout.activity_onboarding) {
 
@@ -30,7 +29,6 @@ class OnboardingActivity : AppCompatActivity(R.layout.activity_onboarding) {
                 }
             }
         )
-
         pageIndicator.attachTo(viewPager)
 
         nextButton.setOnClickListener {
@@ -47,7 +45,7 @@ class OnboardingActivity : AppCompatActivity(R.layout.activity_onboarding) {
 
     private fun changePage(position: Int) = with(binding) {
         viewPager.currentItem = position
-        
+
         nextButton.text = getString(
             if (adapter.itemCount == viewPager.currentItem + 1) R.string.onboarding_continue else R.string.onboarding_next
         )
