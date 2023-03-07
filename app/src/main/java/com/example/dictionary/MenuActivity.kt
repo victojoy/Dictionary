@@ -36,7 +36,6 @@ class MenuActivity : AppCompatActivity(R.layout.activity_menu) {
             }
         }
     }
-
     private fun loadFragment(fragment: Fragment) {
         val transaction = supportFragmentManager.beginTransaction()
         transaction.replace(R.id.container, fragment)
